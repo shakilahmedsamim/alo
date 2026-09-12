@@ -54,7 +54,7 @@ export default function Nav() {
           }`}
           style={{ clipPath: "polygon(0 0, 100% 0, 100% 62%, 50% 100%, 0 62%)" }}
         >
-          <span className="text-[17px] font-semibold text-ink whitespace-nowrap">Alo Akter | Google Ads & Tracking Specialist</span>
+          <span className="text-[17px] font-semibold text-ink whitespace-nowrap">Alo Akter | GAds & Tracking Specialist</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-7">
@@ -125,7 +125,7 @@ export default function Nav() {
       {open && (
         <div className="fixed inset-0 z-50 bg-background md:hidden flex flex-col overflow-y-auto">
           <div className="flex items-center justify-between px-6 py-4 border-b border-border">
-            <span className="text-[19px] font-semibold text-ink">Alo Akter | Google Ads & Tracking Specialist</span>
+            <span className="text-[19px] font-semibold text-ink">Alo Akter | GAds & Tracking Specialist</span>
             <button
               className="flex items-center justify-center w-11 h-11 text-ink"
               aria-label="Close menu"
