@@ -312,7 +312,7 @@ export default function HomePage() {
             <p className="caption-copy uppercase tracking-wider text-accent mb-3">
               Tracking Infrastructure
             </p>
-            <h2 className="h2-style mb-3">Where Your Data Actually Goes</h2>
+            <h2 className="h2-style mb-3">Your Data. Connected. Tracked. Measured.</h2>
             <p className="body-copy text-neutral">
               Whatever platform your site or CRM runs on, events are routed
               through server-side tagging before they reach any ad platform,
