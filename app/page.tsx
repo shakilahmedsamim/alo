@@ -214,9 +214,9 @@ export default function HomePage() {
             </h1>
 
             <p className="body-lg-copy text-neutral">
-              We manage your Google Ads and build the tracking behind them,
-              so every dollar of spend can be traced back to a real, closed
-              sale, not just a click.
+              I manage Google Ads and build accurate online & offline
+              conversion tracking, so you can see which campaigns, leads,
+              and sales actually drive revenue.
             </p>
 
             <div className="flex flex-col gap-3">
