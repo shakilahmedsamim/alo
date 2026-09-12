@@ -13,10 +13,11 @@ import {
   ArrowRightIcon,
   BarChartIcon,
   ClockIcon,
+  ConversionTrackingLogo,
   FiverrLogo,
   GoogleAdsLogo,
   GoogleTagManagerLogo,
-  LayoutIcon,
+  LandingPageLogo,
   ReplyIcon,
   ShieldCheckIcon,
   ShieldIcon,
@@ -48,7 +49,7 @@ const offerCards = [
     href: "/services/#google-ads-management",
   },
   {
-    logo: BarChartIcon,
+    logo: ConversionTrackingLogo,
     color: "#7C3AED",
     title: "Conversion Tracking Setup",
     description:
@@ -57,7 +58,7 @@ const offerCards = [
     href: "/services/#conversion-tracking",
   },
   {
-    logo: LayoutIcon,
+    logo: LandingPageLogo,
     color: "#16A34A",
     title: "Landing Page Optimization",
     description:
