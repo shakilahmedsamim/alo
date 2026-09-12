@@ -209,8 +209,8 @@ export default function HomePage() {
             </div>
 
             <h1 className="h1-style">
-              Know Exactly Which Ads Turn Into{" "}
-              <span className="text-accent">Paying Customers.</span>
+              Know Exactly Which Ads Drive{" "}
+              <span className="text-accent">Real Revenue.</span>
             </h1>
 
             <p className="body-lg-copy text-neutral">
