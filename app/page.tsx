@@ -16,7 +16,7 @@ import {
   FiverrLogo,
   GoogleAdsLogo,
   GoogleTagManagerLogo,
-  PageSpeedInsightsLogo,
+  LayoutIcon,
   ReplyIcon,
   ShieldCheckIcon,
   ShieldIcon,
@@ -43,26 +43,26 @@ const offerCards = [
     color: "#4285F4",
     title: "Google Ads Management",
     description:
-      "Search and Local Services Ads campaigns built around calls and form submissions for your service area, not raw impressions.",
+      "Performance-focused Google Ads campaigns (Search, Local, Shopping & Performance Max) designed to get you more calls, leads, and sales.",
     linkLabel: "See what's included",
     href: "/services/#google-ads-management",
   },
   {
-    logo: GoogleTagManagerLogo,
-    color: "#246FDB",
+    logo: BarChartIcon,
+    color: "#7C3AED",
     title: "Conversion Tracking Setup",
     description:
-      "Enhanced Conversions, server-side tagging, and offline imports, so every call, form, and closed deal is attributed to the ad that earned it.",
+      "Accurate online & offline conversion tracking with GA4, GTM, Google Ads Enhanced Conversions, server-side tracking, and CRM integration — so you know what's really working.",
     linkLabel: "See the full tracking stack",
     href: "/services/#conversion-tracking",
   },
   {
-    logo: PageSpeedInsightsLogo,
-    color: "#4285F4",
+    logo: LayoutIcon,
+    color: "#16A34A",
     title: "Landing Page Optimization",
     description:
-      "The page an ad sends traffic to gets checked for message match, load speed, and a single clear next step, not left as an afterthought.",
-    linkLabel: "See what we check",
+      "High-converting, fast, and mobile-friendly landing pages that turn ad clicks into qualified leads, with clear messaging, better user experience, and higher conversion rates.",
+    linkLabel: "See what we optimize",
     href: "/services/#landing-pages",
   },
 ];
@@ -286,8 +286,8 @@ export default function HomePage() {
                 className="bg-white rounded-2xl border border-border p-6 flex flex-col gap-3"
               >
                 <span
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-background"
-                  style={{ color: card.color }}
+                  className="flex items-center justify-center w-10 h-10 rounded-full"
+                  style={{ color: card.color, backgroundColor: `${card.color}1A` }}
                 >
                   <card.logo className="w-5 h-5" />
                 </span>
