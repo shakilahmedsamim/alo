@@ -327,7 +327,7 @@ export default function HomePage() {
         <div className="content-wrap px-6">
           <div className="max-w-[620px] mx-auto text-center mb-12">
             <p className="caption-copy uppercase tracking-wider text-accent mb-3">
-              The Auction, Explained
+              The Performance Difference
             </p>
             <h2 className="h2-style mb-3">Why Outranking a Bigger Budget Is Possible</h2>
             <p className="body-copy text-neutral">
