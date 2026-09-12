@@ -13,11 +13,10 @@ import {
   ArrowRightIcon,
   BarChartIcon,
   ClockIcon,
-  ConversionTrackingLogo,
   FiverrLogo,
   GoogleAdsLogo,
   GoogleTagManagerLogo,
-  LandingPageLogo,
+  LayoutIcon,
   ReplyIcon,
   ShieldCheckIcon,
   ShieldIcon,
@@ -49,8 +48,8 @@ const offerCards = [
     href: "/services/#google-ads-management",
   },
   {
-    logo: ConversionTrackingLogo,
-    color: "#7C3AED",
+    logo: BarChartIcon,
+    color: "#0066FF",
     title: "Conversion Tracking Setup",
     description:
       "Accurate online & offline conversion tracking with GA4, GTM, Google Ads Enhanced Conversions, server-side tracking, and CRM integration — so you know what's really working.",
@@ -58,7 +57,7 @@ const offerCards = [
     href: "/services/#conversion-tracking",
   },
   {
-    logo: LandingPageLogo,
+    logo: LayoutIcon,
     color: "#16A34A",
     title: "Landing Page Optimization",
     description:

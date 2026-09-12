@@ -341,30 +341,6 @@ export function LayoutIcon({ className = "" }: { className?: string }) {
   );
 }
 
-export function ConversionTrackingLogo({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
-      <title>Conversion Tracking</title>
-      <rect x="3" y="14" width="4.5" height="7" rx="1" fill="#FBBC04" />
-      <rect x="9.75" y="9" width="4.5" height="12" rx="1" fill="#4285F4" />
-      <rect x="16.5" y="3" width="4.5" height="18" rx="1" fill="#34A853" />
-    </svg>
-  );
-}
-
-export function LandingPageLogo({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} aria-hidden="true">
-      <title>Landing Page</title>
-      <rect x="2" y="4" width="20" height="16" rx="2" fill="none" stroke="#94A3B8" strokeWidth="1.5" />
-      <line x1="2" y1="8.5" x2="22" y2="8.5" stroke="#94A3B8" strokeWidth="1.5" />
-      <circle cx="5" cy="6.25" r="0.85" fill="#EA4335" />
-      <circle cx="7.75" cy="6.25" r="0.85" fill="#FBBC04" />
-      <circle cx="10.5" cy="6.25" r="0.85" fill="#34A853" />
-    </svg>
-  );
-}
-
 export function PageSpeedInsightsLogo({ className = "" }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden="true">
