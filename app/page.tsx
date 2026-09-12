@@ -314,9 +314,9 @@ export default function HomePage() {
             </p>
             <h2 className="h2-style mb-3">Your Data. Connected. Tracked. Measured.</h2>
             <p className="body-copy text-neutral">
-              Whatever platform your site or CRM runs on, events are routed
-              through server-side tagging before they reach any ad platform,
-              so tracking survives ad blockers and browser privacy limits.
+              We connect your website, ad platforms, and CRM to build
+              reliable online and offline conversion tracking so you can
+              see which campaigns generate real leads, sales, and revenue.
             </p>
           </div>
           <DataFlowDiagram />
